@@ -1,0 +1,213 @@
+{
+  "name": "FY2013-korean-fiscal-management-efforts",
+  "title": "korean Fiscal Management Efforts FY2013",
+  "homepage": "codenamu.org",
+  "version": "0.1.0",
+  "license": "PDDL-1.0",
+  "sources": [{
+    "name": "2013년도 재정분석 종합보고서 - 재정고",
+    "web": "http://lofin.mogaha.go.kr/lofin_finan/InfoDetail.jsp?idx=146&finan_idx=3&type=title&word=&pg=4",
+    "pdf": "http://lofin.mogaha.go.kr/lofin_finan/Download.jsp?mask=finan_3&fn=2013%B3%E2+%C0%E7%C1%A4%BA%D0%BC%AE+%C1%BE%C7%D5%BA%B8%B0%ED%BC%AD%28%C0%E7%C1%A4%B0%ED%29.pdf"
+  }],
+  "resources": [
+    {
+      "name": "시",
+      "path": "city.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 8132,
+      "schema": {
+        "fields": [
+          {
+            "name": "단체명",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "지방세징수율제고노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "지방세체납액축소노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "경상세외수입확충노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "세외수입체납액축소노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "탄력세율적용노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "인건비절감노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "지방의회경비절감노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "업무추진비절감노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "행사축제경비절감노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "민간이전경비절감노력도",
+            "type": "number",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "군",
+      "path": "goon.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 8734,
+      "schema": {
+        "fields": [
+          {
+            "name": "단체명",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "지방세징수율제고노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "지방세체납액축소노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "경상세외수입확충노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "세외수입체납액축소노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "탄력세율적용노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "인건비절감노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "지방의회경비절감노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "업무추진비절감노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "행사축제경비절감노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "민간이전경비절감노력도",
+            "type": "number",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "구",
+      "path": "gu.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 7256,
+      "schema": {
+        "fields": [
+          {
+            "name": "단체명",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "지방세징수율제고노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "지방세체납액축소노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "경상세외수입확충노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "세외수입체납액축소노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "탄력세율적용노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "인건비절감노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "지방의회경비절감노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "업무추진비절감노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "행사축제경비절감노력도",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "민간이전경비절감노력도",
+            "type": "number",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ],
+  "description": "2013 회계년도 대한민국 재정 종합 보고서, 한국지방행정연구원. 2014. 12. FY2013 korean fiscal management efforts report from korea research institute for local administration."
+}
