@@ -30,10 +30,22 @@ npm install dat -g
 https://github.com/okfn/dpm
 배포용 데이터 패키지
 
+wow! check this out!
+http://data.okfn.org/tools/view?url=https%3A%2F%2Fgithub.com%2Fcodenamu%2F2013_fiscal_efforts
+
+
 ```
 npm install datapackage -g
 npm install datapackage-init —save-dev
+
+dpm install https://github.com/codenamu/2013_fiscal_efforts
 ```
+데이터가 내 개발머신에 똿! 내려옵니다!
+아직까지는 패키지명이 아니라 url 밖에 지원하지 않는다고 합니다.
+시간이 좀 더 지나면 패키지명으로 땽겨올 수 있겠죠?
+
+./datapackages/2013_fiscal_efforts
+
 
 ## dat 사용법
 ```
